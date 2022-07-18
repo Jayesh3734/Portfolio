@@ -1,0 +1,30 @@
+
+/// @param {string} $keys Key(s).
+/// @return {string} Value.
+@function _duration($keys...) {
+	@return val($duration, $keys...);
+}
+
+/// @param {string} $keys Key(s).
+/// @return {string} Value.
+@function _font($keys...) {
+	@return val($font, $keys...);
+}
+
+/// @param {string} $keys Key(s).
+/// @return {string} Value.
+@function _misc($keys...) {
+	@return val($misc, $keys...);
+}
+
+/// @param {string} $keys Key(s).
+/// @return {string} Value.
+@function _palette($keys...) {
+	@return val($palette, $keys...);
+}
+
+/// @param {string} $keys Key(s).
+/// @return {string} Value.
+@function _size($keys...) {
+	@return val($size, $keys...);
+}
