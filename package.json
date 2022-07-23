@@ -1,4 +1,5 @@
 {
+  "homepage": "https://Jayesh3734.github.io/Portfolio",
   "name": "personal-site",
   "version": "1.0.0",
   "license": "ISC",
@@ -6,6 +7,8 @@
     "node": ">=14.x"
   },
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "build": "rimraf ./build && react-scripts build",
     "start": "react-scripts start",
     "lint": "eslint $(git ls-files '*.js')",

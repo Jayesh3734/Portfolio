@@ -4,7 +4,7 @@ const degrees = [
     degree: 'B.Tech Mechanical Engineering',
     link: 'https://iitram.ac.in',
     year: '2019 - 2023',
-    cgpa: '{CGPA: 7.88}',
+    cgpa: '{CGPA: 7.55}',
   },
   {
     school: 'St. Aloysius Junior College',
