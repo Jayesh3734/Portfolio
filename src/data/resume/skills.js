@@ -1,48 +1,48 @@
 const skills = [
   {
     title: 'Javascript',
-    competency: 4,
-    category: ['Web Development', 'Languages', 'Javascript'],
-  },
-  {
-    title: 'Node.JS',
     competency: 3,
-    category: ['Web Development', 'Javascript'],
+    category: ['Web Development', 'Languages'],
   },
   {
-    title: 'React',
+    title: 'ExpressJS',
     competency: 3,
-    category: ['Web Development', 'Javascript'],
+    category: ['Web Development'],
   },
   {
-    title: 'Heroku',
-    competency: 2,
-    category: ['Web Development', 'Tools'],
+    title: 'NodeJS',
+    competency: 3,
+    category: ['Web Development'],
+  },
+  {
+    title: 'ReactJS',
+    competency: 3,
+    category: ['Web Development'],
   },
   {
     title: 'MongoDB',
     competency: 3,
-    category: ['Web Development', 'Databases'],
+    category: ['Web Development'],
+  },
+  {
+    title: 'Heroku',
+    competency: 3,
+    category: ['Web Development', 'Tools'],
   },
   {
     title: 'jQuery',
     competency: 3,
-    category: ['Web Development', 'Javascript'],
+    category: ['Web Development'],
   },
   {
     title: 'Bootstrap',
     competency: 4,
-    category: ['Web Development', 'Javascript'],
+    category: ['Web Development'],
   },
   {
-    title: 'PostgreSQL/SQLite3/SQL',
+    title: 'SQL',
     competency: 3,
-    category: ['Web Development', 'Databases', 'Languages'],
-  },
-  {
-    title: 'Express.JS',
-    competency: 2,
-    category: ['Web Development', 'Javascript'],
+    category: ['Languages'],
   },
   {
     title: 'Git',
@@ -50,24 +50,14 @@ const skills = [
     category: ['Tools'],
   },
   {
-    title: 'Numpy',
-    competency: 3,
-    category: ['Data Science', 'Data Engineering'],
+    title: 'HTML',
+    competency: 4,
+    category: ['Web Development'],
   },
   {
-    title: 'Tensorflow + Keras',
-    competency: 2,
-    category: ['Data Science'],
-  },
-  {
-    title: 'Jupyter',
-    competency: 3,
-    category: ['Data Science'],
-  },
-  {
-    title: 'HTML + SASS/SCSS/CSS',
-    competency: 3,
-    category: ['Web Development', 'Languages'],
+    title: 'CSS',
+    competency: 4,
+    category: ['Web Development'],
   },
   {
     title: 'Python',
@@ -91,28 +81,18 @@ const skills = [
   },
   {
     title: 'MATLAB',
-    competency: 2,
+    competency: 3,
     category: ['Languages'],
-  },
-  {
-    title: 'Data Visualization',
-    competency: 3,
-    category: ['Data Science'],
-  },
-  {
-    title: 'Pandas',
-    competency: 3,
-    category: ['Data Engineering', 'Data Science'],
-  },
-  {
-    title: 'Matplotlib',
-    competency: 3,
-    category: ['Data Engineering', 'Data Science'],
   },
   {
     title: 'Scikit-Learn',
     competency: 3,
-    category: ['Data Engineering', 'Data Science'],
+    category: ['Data Science'],
+  },
+  {
+    title: 'Machine Learning',
+    competency: 3,
+    category: ['Data Science'],
   },
   {
     title: 'Flutter',
@@ -120,24 +100,14 @@ const skills = [
     category: ['Android Development'],
   },
   {
-    title: 'OpenCV',
-    competency: 3,
-    category: ['Data Science', 'Data Engineering'],
-  },
-  {
     title: 'Ajax',
     competency: 3,
-    category: ['Web Development', 'Javascript'],
-  },
-  {
-    title: 'React-Redux',
-    competency: 3,
-    category: ['Web Development', 'Javascript'],
+    category: ['Web Development'],
   },
   {
     title: 'NPM',
     competency: 3,
-    category: ['Web Development', 'Tools'],
+    category: ['Tools'],
   },
   {
     title: 'Postman',
@@ -156,13 +126,8 @@ const skills = [
   },
   {
     title: 'Firebase',
-    competency: 2,
-    category: ['Web Development', 'Android Development'],
-  },
-  {
-    title: 'XML',
     competency: 3,
-    category: ['Languages', 'Android Development'],
+    category: ['Web Development', 'Android Development'],
   },
 ].map((skill) => ({ ...skill, category: skill.category.sort() }));
 
@@ -174,10 +139,10 @@ const colors = [
   '#e47272',
   '#cc7b94',
   '#3896e2',
-  '#c3423f',
-  '#d75858',
-  '#747fff',
-  '#64cb7b',
+  // '#c3423f',
+  // '#d75858',
+  // '#747fff',
+  // '#64cb7b',
 ];
 
 const categories = [
