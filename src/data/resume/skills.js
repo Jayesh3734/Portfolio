@@ -75,6 +75,11 @@ const skills = [
     category: ['Android Development', 'Languages'],
   },
   {
+    title: 'Dart',
+    competency: 3,
+    category: ['Android Development', 'Languages'],
+  },
+  {
     title: 'Kotlin',
     competency: 4,
     category: ['Android Development', 'Languages'],
